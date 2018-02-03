@@ -1,0 +1,563 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 16px;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+
+}
+
+/*
+
+	It begins 
+	
+*/
+
+
+/****************************/
+/****************************/
+/*		 BEGINNING  	    */
+/****************************/
+/****************************/
+
+h2 {
+	padding-bottom: 3rem;
+	letter-spacing: 0.1rem;
+	padding-left: 2rem;
+	width: 80%;
+	font-size: 2.5rem;
+	line-height: 3.5rem
+}
+
+.top-h2 {
+	transform: rotate();
+	margin-top: 3em;
+}
+
+.mid-h2 {
+	margin-top: 80vh;
+	margin-bottom: 90vh;
+	text-align: center;
+}
+
+.projects {
+	line-height: 2em;
+}
+
+a {
+	color: magenta;
+}
+
+a:hover {
+	background-color: white;
+}
+
+#candy {
+	margin-bottom: 1em;
+	margin-top: 1em;
+	font-size: 8em;
+	text-align: center;
+}
+
+.candy-blue {
+	color:#2094FF;
+}
+
+.candy-orange {
+	color: #FF9C44;
+}
+
+/****************************/
+/****************************/
+/*		 MAIN ELEMENTS  	*/
+/****************************/
+/****************************/
+
+
+body {
+	width: 100%;
+	font-family: helvetica;
+	font-size: 16px;
+}
+
+#container {
+	padding: 1.2rem;
+	margin: 2.8em;
+	border: 1px solid #FF73DB;
+}
+
+.first-intro {
+	margin-bottom: 4rem;
+	margin-top: 4rem;
+}
+
+
+.intro {
+	width: 40rem;
+	font-size: 1.5rem;
+	padding-left: 10rem;
+}
+
+.bottom-intro {
+	margin-top: -4.5rem;
+}
+
+.main {
+	padding: 2rem;
+	width: 40rem;	
+	float: left;
+}
+
+.main-side {
+	float: left;
+	padding: 2rem 0 2rem 2rem;
+	width: 20rem;
+}
+
+.main-side p{
+	margin-bottom: 2rem;
+	line-height: 1.8rem
+
+}
+
+.boxes {
+	font-size: 1.2rem;
+	width: 90vw;
+	font-family: arial;
+}
+
+
+.year {
+	font-size: 10rem;
+	text-align: center;
+	font-family: georgia;
+	clear: both;
+	margin-bottom: 0.2em;
+}
+
+
+/****************************/
+/****************************/
+/*		    LISTS         	*/
+/****************************/
+/****************************/
+
+
+.tldr {
+	width: 30rem;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.tldr li {
+	padding-bottom: 1rem;
+	line-height: 1.4rem;
+
+}
+
+
+/****************************/
+/****************************/
+/*		 MAIN TEXT       	*/
+/****************************/
+/****************************/
+
+
+.intro p {
+	line-height: 3rem;
+	padding: 0.8em;
+	text-align: justify;
+	letter-spacing: 0.02em;
+}
+
+.first-intro p {
+	line-height: 3.35rem;
+
+}
+
+#kate {
+	width: 80%;
+	font-size: 1.2rem;
+	padding-top: 0;
+	margin-bottom: 8em;
+}
+
+.aln {
+	width: 40%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+
+#kate p {
+	text-align: left;
+	font-size: 1.2rem;
+
+}
+
+.main p {
+	font-size: 1.3rem;
+	line-height: 2rem;
+	padding-bottom: 1.2rem;
+	font-family: 'Assistant', sans-serif;
+}
+
+.now {
+	margin-bottom: 4em;
+	text-align: center;
+}
+
+
+/****************************/
+/****************************/
+/*	    PORTFOLIO TITLE  	*/
+/****************************/
+/****************************/
+
+
+.main-title {
+	margin-top: 10rem;
+	margin-bottom: 5rem;
+	font-size: 12rem;
+	text-align: center;	
+	line-height: 20rem;
+}
+
+/****************************/
+/****************************/
+/*		 	FLURO  			*/
+/****************************/
+/****************************/
+
+
+.b {
+	background-color: #00FFFF;
+	color: white;
+	transition: background-color 0.35s ease-out, opacity 0.35s ease-out;	
+}
+
+.o {
+	background-color: #FF7F00;
+	color: white;
+	transition: background-color 0.35s ease-out, opacity 0.35s ease-out;	
+}
+
+.r {
+	background-color: red;
+	color: white;
+	transition: background-color 0.35s ease-out, opacity 0.35s ease-out;	
+}
+
+.p {
+	background-color: #FF51A2;
+	color: white;
+	transition: background-color 0.35s ease-out, opacity 0.35s ease-out;	
+
+}
+
+.g {
+	background-color: #22FF8D;
+	color: white;
+	transition: background-color 0.35s ease-out, opacity 0.35s ease-out;	
+
+}
+
+.gr {
+	color: #22FF8D;
+}
+
+
+.pur {
+	background-color: #8C2CFF;
+	color: white;
+	opacity: 1;
+	transition: background-color 0.35s ease-out, opacity 0.35s ease-out;	
+
+}
+
+.l:hover {
+	background-color: #BAB9CD;
+	opacity: 1;
+	width: 90%;
+}
+
+.y {
+	background-color: #FFFD00;
+	color: #504E52;
+	transition: background-color 0.35s ease-out, opacity 0.35s ease-out;	
+}
+
+
+
+/****************************/
+/****************************/
+/*		 	ICONS  			*/
+/****************************/
+/****************************/
+
+.up-button {
+	position: fixed;
+	height: 40px;
+	width: 40px;
+	background-color: black;
+
+	top: 5%;
+	right: 6%;
+}
+
+.charmander {
+	height: 40px;
+	width: 40px;
+}
+
+.medium {
+	height: 40px;
+	width: 40px;
+}
+
+.linked-color {
+	color: #3D7DFF
+}
+
+.linked {
+	height: 27px;
+	width: 27px;
+	bottom: 3px;
+	position:relative;
+	margin-right: 3px;
+	margin-left: 3px;
+
+}
+
+.youtube, .tumblr, .podcast {
+	height: 25px;
+	width: 25px;	
+	margin-right: 10px;
+	}
+
+
+.hamburger {
+	position: relative;
+	float: right;
+	border: solid 1px;
+	width: 30px;
+	height: 30px;
+
+}
+
+.line {
+	border: solid 1px;
+	margin-bottom: 6px;
+	width: 30px;
+	height: 2px;
+	background-color: black;
+	border-radius: 3px;
+}
+
+.tim {
+	clear: both;
+}
+
+.last-year {
+	padding-top: 5rem;
+}
+
+.times {
+	font-family: times;
+	font-size: 1.6rem;
+}
+
+.intro-last {
+	margin-bottom: 8rem;
+}
+
+
+
+/****************************/
+/****************************/
+/*		PROJECT TARGET      */
+/****************************/
+/****************************/
+
+:target {
+	transition: 3s ease;
+}
+
+
+.projects a {
+	text-decoration: none;
+}
+
+.main a {
+	text-decoration: none;
+}
+
+
+/****************************/
+/****************************/
+/*		 	MEDIA  			*/
+/****************************/
+/****************************/
+
+
+
+@media (max-width: 1000px) {
+
+	.intro, .tldr{
+		width: 40rem;
+	}
+	.intro {
+		padding: 12px;
+	}
+
+
+}
+
+@media (max-width: 768px) {
+
+	.main-side, .main, #container, .tldr, .intro { 
+		padding: 18px;
+	}
+	
+	.main, .main-side, .boxes-main {
+		width: 90%;
+	}
+
+	.intro, .tldr{
+		width: 80vw;
+	}
+	.intro {
+		padding: 12px;
+	}
+
+	.intro p {
+		padding-top: 0.8em;
+		padding-bottom: 0.8em;
+		font-size: 70%;
+		line-height: 1.8rem;
+	}
+
+	.times {
+		padding-top: 0.8em;
+		padding-bottom: 0.8em;
+		font-size: 115%;
+		line-height: 1.8rem;
+
+	}
+	.main p {
+		font-size: 85%;
+		line-height: 1.rem;
+	}
+
+	.projects {
+		font-size: 2rem;
+		line-height: 3.6rem;
+	}
+
+	#container {
+		margin: 1.4em;
+	}
+
+	.aln {
+		width: 80%;
+	}
+
+	.top-h2 {
+		margin-top: 2em;
+	}
+
+    .year {
+    	font-size: 8rem;
+    }
+
+	.charmander {
+		height: 25px;
+		width: 25px;
+	}
+
+    h2 {
+    	width: 90vw;
+    	padding-left: 0;
+    	font-size: 1.8rem;
+		line-height: 2.52rem;
+    }
+
+    .mid-h2 {
+    	font-size: 1.6rem;
+    }
+
+    .linked {
+	margin: 0;
+	bottom: 0;
+	}
+}
+
+
+@media (max-width: 410px) {
+
+	.charmander {
+		height: 20px;
+		width: 20px;
+	}
+
+
+	.top-h2 {
+		margin-top: 1.2em;
+	}
+
+	#container {
+		margin: 0.4em;
+
+	}
+
+    .year {
+		font-size: 5rem;
+    }
+}
+
+@media (max-width: 320px) {
+	.intro p {
+		font-size: 60%;
+		text-align: left;
+	}
+
+}

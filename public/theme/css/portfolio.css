@@ -1,0 +1,260 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 16px;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+
+}
+
+/*
+
+
+
+	It begins 
+
+
+	
+*/
+
+body {
+	width: 100%;
+	font-family: arial;
+}
+
+#container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.main-title, .boxes, .year, .main, .main-side {
+	/*     border: 1px solid;		*/
+}
+
+.main-title {
+	margin-top: 10rem;
+	font-size: 12rem;
+	text-align: center;	
+	line-height: 20rem;
+}
+
+.main {
+	padding: 2rem;
+	width: 40rem;	
+	float: left;
+}
+
+.main p {
+	line-height: 2rem;
+}
+
+.main-side {
+	float: left;
+	padding: 2rem 0 2rem 2rem;
+	width: 20rem;
+}
+
+.init-contain, .init-contain-select {
+	border: 1px solid;
+}
+
+.init-contain {
+	margin: auto;
+	width: 70%;
+	height: 30rem;
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.init-contain-select {
+	width: 33%;
+}
+
+.init-contain-select h1{
+	text-align: center;
+}
+
+.intro {
+	width: 40rem;
+	font-size: 1.5rem;
+	padding: 2rem;
+	margin: 0 auto;
+}
+
+.intro p {
+	line-height: 2.38rem;
+	padding: 0.8em;
+	text-align: justify;
+	letter-spacing: 0.02em;
+}
+
+
+.tldr {
+	width: 30rem;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.tldr li {
+	padding-bottom: 10px;
+}
+
+.boxes {
+	font-size: 1.2rem;
+
+	width: 90vw;
+	font-family: arial;
+
+}
+
+.year {
+	font-size: 10rem;
+	text-align: center;
+	font-family: georgia;
+	clear: both;
+	margin-bottom: 0.2em;
+}
+
+
+li {
+	padding-bottom: 1rem;
+}
+
+h1, h2 {
+	padding-bottom: 3rem;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+p {
+	line-height: 1.4rem;
+	padding-bottom: 1.2rem;
+}
+
+a {
+	background-color: magenta;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	background-color: white;
+}
+
+.grid {
+	width: 10rem;
+}
+
+.b-clear {
+	clear: both;
+}
+
+.b {
+	background-color: #00FFFF;
+	color: white;
+}
+
+.o {
+	background-color: #FF7F00;
+	color: white;
+}
+
+.r {
+	background-color: red;
+	color: white;
+}
+
+.p {
+	background-color: #FF51A2;
+	color: white;
+}
+
+.g {
+	background-color: #22FF8D;
+	color: white;
+}
+
+.pur {
+	background-color: #8C2CFF;
+	color: white;
+}
+
+.y {
+	background-color: #FFFF00;
+	color: white;
+}
+
+
+/*
+
+#working-career-list {
+}
+
+#one {
+	float: left;
+	margin-right: 8rem;
+}
+
+#two {
+	float: left;
+	margin-right: 8rem;
+
+}
+
+#three {
+	float: left;
+
+}
+
+
+
+*/
