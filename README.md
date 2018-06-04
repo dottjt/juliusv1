@@ -6,4 +6,4 @@ Actually, it was technically the third one I built. The first one was easily the
 
 It begs to say that the codebase is an absolute mess. I didn't even understand how static generators worked at the time, so I didn't use it as it should have been.
 
-In addition, it's not really even a website. It's just a static page, but a lot of effort was put into the design and content. 
+https://v1.juliusreade.com/
