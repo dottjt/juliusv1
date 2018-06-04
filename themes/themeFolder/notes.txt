@@ -1,0 +1,54 @@
+Things I need to do.
+
+- css animation with link.
+- how to do a blow out link that covers the whole page. // which shows all categories. 
+- seperate categories
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// make '+' on links rotate with basic css animations 
+	
+	<div id="main_container">
+		<div id="main_navigation">
+
+		<h1>J U L I R S E A D E </h1>
+			<li>
+				<ul>[+ unprofessionalism]{filename}/pages/unprofessionalism.md</ul>
+				<ul>[+ professionalism]{filename}/pages/professionalism.md</ul>
+				<ul>[+ coding]{filename}/pages/coding.md</ul>
+				<ul>[+ media]{filename}/pages/media.md</ul>
+				<ul>[+ about]{filename}/pages/about.md</ul>
+				<ul>[+ contact]{filename}/pages/contact.md</ul>
+			</li>	
+		</div>
+
+
+		

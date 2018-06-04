@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block head %}
+  {{ super() }}
+
+  {% if article.author %}
+    <meta name="author" content="{{ article.author }}">
+  {% endif %}
+
+  {% if article.summary %}
+    <meta name="description" content="{{ article.summary|striptags }}">
+  {% endif %}
+
+  <meta name="tags" contents="{% for tag in article.tags %}{{ tag }}, {% endfor %}">
+	<link rel="stylesheet" href="./../theme/css/article.css">
+{% endblock head %}
+
+{% block title %}
+  {{ SITENAME }} &mdash; {{ article.title|striptags }}
+{% endblock %}
+
+
+{% block content %}
+
+<div id="main_container">
+    <ul>
+      <!-- <li class="post-date">
+        <span>Date Published: </span><a href="/{{ article.url }}" title="{{ article.date.isoformat() }}"> {{ article.locale_date }}</a>
+      </li> -->
+          
+        <!-- <li class="post-category">
+        <span>Category: </span><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+              </li> -->
+      
+    
+      {% if article.tags %}
+        <!-- <li>
+         <span>Tags: </span>
+          {% for tag in article.tags %}
+           <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+          {% endfor %}
+        </li> -->
+      {% endif %}
+    
+        {% if article.author %}
+        <li>
+          <address class="post-author">
+            By <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
+          </address>
+        </li>
+      {% endif %}
+    </ul>
+
+
+	<div id="text_container">
+    
+    {{ article.content }}
+	</div>
+</div>
+
+{% endblock content %}

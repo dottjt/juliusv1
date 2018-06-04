@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block head %}
+	<link rel="stylesheet" href="./theme/css/page.css">
+	<link rel="stylesheet" href="../static/css/page.css">
+{% endblock head %}
+
+
+{% block content %}
+
+
+<div id="container">
+	{% for article in articles %}
+	<div class="box">
+		<a href="{{ SITEURL }}/{{ article.url }}"></a>
+		<img src="{{article.Image}}"/> 
+		<p> {{article.slug}} </p>
+		<p>	{{article.summary}}  </p>
+		<p>	{{article.Image}}  </p>
+	</div>
+	{% endfor %}
+</div>
+
+{% endblock content %}

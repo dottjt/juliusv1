@@ -1,0 +1,181 @@
+{% extends "base.html" %}
+{% block head %}
+    <meta name="tags" content="Homepage" />
+    <meta name="date" content="2016-06-09 22:28" />
+    <meta name="modified" content="2016-06-10 20:14" />
+    <meta name="category" content="Homepage" />
+    <meta name="authors" content="Julius Reade" />
+    <meta name="summary" content="Julius Reade Homepage" />
+    
+	<link rel="stylesheet" href="./theme/css/style.css">
+	<link rel="stylesheet" href="../static/css/style.css">
+       
+    <meta charset="utf-8" />
+	<!-- 
+		Test to see viewport 
+	-->
+
+
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="initial-scale=1.0">
+
+{% endblock head %}
+
+{% block title %}
+{% endblock title %}
+
+{% block content %}
+
+<!--
+	<div id="rainbow"></div>
+
+-->
+
+<!--
+	<div class="l rainbow-red"></div>
+	<div class="l rainbow-orange"></div>
+	<div class="l rainbow-yellow"></div>
+	<div class="l rainbow-green"></div>
+	<div class="l rainbow-lightblue"></div>
+	<div class="l rainbow-blue"></div>
+	<div class="l rainbow-purple"></div>
+	<div class="l rainbow-red"></div>
+			-->
+
+<!--
+<div class="r-contain">
+	<div class="r rainbow-white">
+		<p class="descript"></p>
+	</div>
+</div>
+<div class="r-contain">
+	<div class="r rainbow-orange">
+		<p class="descript"></p>
+	</div>
+</div>
+<div class="r-contain">
+	<div class="r rainbow-yellow">
+			<p class="descript"></p>
+	</div>
+</div>
+<div class="r-contain">
+	<div class="r rainbow-green">
+			<p class="descript"></p>
+	</div>
+</div>
+<div class="r-contain">
+	<div class="r rainbow-lightblue">
+			<p class="descript"></p>
+	</div>
+</div>
+<div class="r-contain">
+	<div class="r rainbow-blue">
+			<p class="descript"></p>
+	</div>
+</div>
+<div class="r-contain">
+	<div class="r rainbow-purple"></div>
+</div>
+<div class="r-contain">
+	<div class="r rainbow-red">
+
+	</div>
+</div>
+
+
+-->
+	<div id="main_container">
+
+		<div id="main_navigation">
+			<h1>J U L I U S R E A D E </h1>
+
+			<p id="intro">perenial coder. website under heavy construction.</p>
+
+			<ul>
+
+				<a href="https://medium.com/@JuliusReade">
+					<li><span class="plus">+</span> writing</li>
+				</a><span id="hidden">	chronological heartbeat.</span>
+
+				</br>
+				
+				<a href="./categories.html">
+					<li><span class="plus">+</span> la カテゴリー<</li>
+				</a><span id="hidden">   explore with your eyes.</span>
+				
+				</br>
+
+				<a href="./portfolio.html">
+					<li><span class="plus">+</span> portfolio</li>
+				</a><span id="hidden">   the things I do for money.</span>
+
+				</br>
+
+				<a href="./timeline.html">
+					<li><span class="plus">+</span> timeline</li>
+				</a><span id="hidden">   thing thing thing.</span>
+
+				</br>
+
+				<a href="./about.html">
+					<li><span class="plus">+</span> about</li>
+				</a><span id="hidden">   why you should love me.</span>
+
+			</ul>	
+			<!--
+			<li id="nav2">
+				<li>
+					jliius.reade@gmail.com
+				</li>
+
+			</li>
+			-->
+		</div>
+	</div>
+
+<!--
+			<div id="links">
+				cat.
+			</div>
+							-->
+
+							<!--
+  <div>
+    {% for article in articles_page.object_list %}
+      <div class="post mini-post">
+        <div class="row">
+          <div class="col-md-4">
+            <p class="post-date">
+            
+              <a class="text-muted" href="/{{ article.url }}" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</a>
+            </p>
+            <p class="post-category">
+              <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+            </p>
+            {% if article.author and SHOW_ARTICLE_AUTHOR %}
+              <address class="post-author">
+                By <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
+              </address>
+            {% endif %}
+          </div>
+
+          <div class="col-md-8">
+            <h2 class="post-title">
+              <a href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+            </h2>
+            <div class="post-content">
+              {{ article.content|striptags|truncate(256) }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+-->
+{% endblock content %}
+
+</body>
+
+
+
+</html>

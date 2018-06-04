@@ -1,0 +1,308 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 16px;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+
+DOING ALL SORTS OF THINGS.
+
+*/
+
+/*
+ *	RAINBOW COLOR
+ *				*/
+
+
+
+
+/* alt arrangement.
+
+
+.l {
+	position: absolute;
+	left: 98%;
+	width: 2%;
+	float: left;
+	height: 2%;
+	opacity: 0.4;
+	z-index: 40;
+}
+
+.r {
+	position: absolute;
+	width: 12.5vh;
+	float: left;
+	height: 2%;
+	opacity: 0.4;
+	z-index: 40;
+}
+
+*/
+
+.rainbow-white {
+
+	top: 87.5%;
+
+}
+
+.rainbow-orange {
+	background-color: orange;
+		top: 12.5%;
+
+}
+.rainbow-yellow {
+	background-color: yellow;
+		top: 25%;
+
+
+}
+.rainbow-green {
+	background-color: green;
+		top: 37.5%;
+
+}
+.rainbow-lightblue {
+	background-color: lightblue;
+		top: 50%;
+
+}
+.rainbow-blue {
+	background-color: blue;
+		top: 62.5%;
+
+}
+.rainbow-purple {
+	background-color: purple;
+		top: 75%;
+
+}
+.rainbow-red {
+	background-color: red;
+	top: 87.5%;
+}
+
+
+.r {
+	position: absolute;
+	width: 30%;
+	float: left;
+	height: 10%;
+	opacity: 0.4;
+	z-index: 40;
+}
+
+/*
+
+	RAINBOW ENDS
+*/
+
+body {
+	font-family: helvetica;
+}
+
+#main_container {
+	width: 100%;
+	margin-bottom: 20vh;
+}
+
+#main_navigation {
+	background-color: white;
+	padding-top: 20vh;
+	position: relative;
+	opacity: 0.4;
+	font-size: 1.2rem;
+	line-height: 1.4rem;
+}
+
+
+h1 { /* name */
+	text-align: center;
+	margin: 0 auto;	
+	width: 250px;
+	font-weight: bold;
+	font-size: 1.4rem;
+	padding-bottom: 1rem;
+}
+
+.b {
+	width: 100%;
+}
+
+#intro {
+	font-size: 1rem; 
+	margin: 0 auto; 
+	width: 250px; 
+	text-align: center;"
+}
+
+ul { 
+	font-style: italic;
+	list-style-type: none;
+	margin: 0 10vw 0 30vw;	
+}
+
+li {
+	display: inline-block;
+	padding: 5px;
+}
+
+
+a { /* nav links */ 
+	color: purple;
+	width: 300px;
+	text-decoration: none;	
+}
+
+a:hover {
+	color: orange;	
+}
+
+@keyframes rot {
+	from { 	transform: rotate(0deg); }
+	to { transform: rotate(90deg); }
+
+}
+
+a:hover .plus {
+}
+
+a:hover + #hidden {
+	opacity: 1;
+	font-size: 1rem; /* 20px normal */ 
+	color: purple;	
+
+}
+
+
+#hidden {
+	display: inline-block;
+	width: 300px;
+	opacity: 0;
+}
+
+.r:hover > .descript {
+	opacity: 1;
+}
+
+/*
+.r:hover {
+	width: 10%;
+}
+.descript {
+	opacity: 0;
+	width: 250px;
+	position: absolute;
+	top: 1em;
+	z-index: 40;
+
+}
+*/
+.descript {
+	display: hidden;
+}
+
+@media screen and (max-width: 768px) {
+	.descript {
+		display: hidden
+	}
+
+	.r-contain {
+		display: hidden;
+	}
+}
+
+
+
+
+/*
+
+NOT USED
+
+
+#rainbow {
+	z-index: -1;
+	position: absolute;
+	background-color: yellow;
+	width: 700px;
+	height: 200px;
+	border: solid 1px;
+	border-radius: 5px;
+	margin-left: 25vw;
+	margin-bottom: 5vw; 
+}
+
+#links {
+	width: 55px;
+	height: 55px;
+	background-color: orange;
+	border-radius: 50%;
+	margin-bottom: 50px;
+	text-align: center;
+	line-height: 54px;
+	font-style: italic;
+	
+}
+
+#nav2 {
+	padding-top: 5px;
+}
+
+.div-below {
+
+}
+
+
+*/
+
+
+
+
+
+
